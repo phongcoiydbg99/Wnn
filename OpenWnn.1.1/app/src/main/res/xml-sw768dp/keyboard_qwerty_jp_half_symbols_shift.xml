@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2008-2012  OMRON SOFTWARE Co., Ltd.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wnn="http://schemas.android.com/apk/res-auto"
+    wnn:keyWidth="7%p"
+    wnn:horizontalGap="0.9%p"
+    wnn:verticalGap="0.9%p"
+    wnn:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key wnn:codes="-106" wnn:keyLabel="記号" wnn:keyEdgeFlags="left" wnn:isSecondKey="true" wnn:horizontalGap="0.1%p" />
+        <Key wnn:codes="91" wnn:keyLabel="[" />
+        <Key wnn:codes="93" wnn:keyLabel="]" />
+        <Key wnn:codes="123" wnn:keyLabel="{"/>
+        <Key wnn:codes="125" wnn:keyLabel="}"/>
+        <Key wnn:codes="35" wnn:keyLabel="\#"/>
+        <Key wnn:codes="37" wnn:keyLabel="%"/>
+        <Key wnn:codes="94" wnn:keyLabel="^"/>
+        <Key wnn:codes="42" wnn:keyLabel="*"/>
+        <Key wnn:codes="43" wnn:keyLabel="+"/>
+        <Key wnn:codes="61" wnn:keyLabel="="/>
+        <Key wnn:codes="-100" wnn:keyIcon="@drawable/key_del" wnn:keyWidth="12%p"
+             wnn:keyEdgeFlags="right" wnn:isRepeatable="true" wnn:isSecondKey="true"/>
+    </Row>
+ 
+    <Row>
+        <Key wnn:codes="-307" wnn:keyLabel="ABC" wnn:keyWidth="10%p"  wnn:keyEdgeFlags="left" wnn:isSecondKey="true" wnn:horizontalGap="0.1%p"  />
+        <Key wnn:codes="95" wnn:keyLabel="_" />
+        <Key wnn:codes="165" wnn:keyLabel="￥"/>
+        <Key wnn:codes="124" wnn:keyLabel="|"/>
+        <Key wnn:codes="126" wnn:keyLabel="~"/>
+        <Key wnn:codes="60" wnn:keyLabel="&lt;"/>
+        <Key wnn:codes="62" wnn:keyLabel="&gt;"/>
+        <Key wnn:codes="36" wnn:keyLabel="$"/>
+        <Key wnn:codes="8364" wnn:keyLabel="@string/key_qwerty_euro"/>
+        <Key wnn:codes="163" wnn:keyLabel="￡"/>
+        <Key wnn:codes="-101" wnn:keyIcon="@drawable/key_qwerty_return"
+             wnn:keyEdgeFlags="right" wnn:keyWidth="17%p" wnn:isSecondKey="true"/>
+    </Row>
+ 
+    <Row>
+        <Key wnn:codes="-1" wnn:keyIcon="@drawable/key_qwerty_shift_locked" wnn:keyWidth="12.2%p"
+             wnn:isModifier="true" wnn:isSticky="false" wnn:keyEdgeFlags="left" wnn:isSecondKey="true" wnn:horizontalGap="0.1%p"  />
+        <Key wnn:codes="46" wnn:keyLabel="." />
+        <Key wnn:codes="44" wnn:keyLabel="," />
+        <Key wnn:codes="63" wnn:keyLabel="\?" />
+        <Key wnn:codes="33" wnn:keyLabel="!" />
+        <Key wnn:codes="39" wnn:keyLabel="@string/key_qwerty_full_right_single_quote" />
+        <Key wnn:codes="34" wnn:keyLabel="@string/key_qwerty_full_double_quotation_sign" />
+        <Key wnn:codes="-218" wnn:keyIcon="@drawable/key_qwerty_left" wnn:horizontalGap="24.85%p" wnn:isSecondKey="true" wnn:isRepeatable="true"/>
+        <Key wnn:codes="-217" wnn:keyIcon="@drawable/key_qwerty_right" wnn:keyEdgeFlags="right" wnn:isSecondKey="true" wnn:isRepeatable="true"/>
+    </Row>
+   
+    <Row wnn:rowEdgeFlags="bottom">
+        <Key wnn:codes="-304" wnn:keyIcon="@drawable/key_mode_half_num"
+         wnn:keyWidth="12%p" wnn:horizontalGap="15%p" wnn:isSecondKey="true"/>
+        <Key wnn:codes="32" wnn:keyLabel=" " wnn:keyWidth="50%p" wnn:isRepeatable="true"/>
+    </Row>
+
+</Keyboard>

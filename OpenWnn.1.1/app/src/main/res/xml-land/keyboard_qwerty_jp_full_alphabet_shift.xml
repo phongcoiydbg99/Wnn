@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2008-2012  OMRON SOFTWARE Co., Ltd.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:wnn="http://schemas.android.com/apk/res-auto"
+      wnn:keyWidth="9%p"
+      wnn:horizontalGap="0.93%p"
+      wnn:verticalGap="0dip"
+      wnn:keyHeight="@dimen/key_height"
+  >
+
+  <Row>
+    <Key wnn:codes="65329" wnn:keyLabel="Q" wnn:keyEdgeFlags="left" wnn:horizontalGap="1.2%p"/>
+    <Key wnn:codes="65335" wnn:keyLabel="W"/>
+    <Key wnn:codes="65317" wnn:keyLabel="E"/>
+    <Key wnn:codes="65330" wnn:keyLabel="R"/>
+    <Key wnn:codes="65332" wnn:keyLabel="T"/>
+    <Key wnn:codes="65337" wnn:keyLabel="Y"/>
+    <Key wnn:codes="65333" wnn:keyLabel="U"/>
+    <Key wnn:codes="65321" wnn:keyLabel="I"/>
+    <Key wnn:codes="65327" wnn:keyLabel="O"/>
+    <Key wnn:codes="65328" wnn:keyLabel="P" wnn:keyEdgeFlags="right"/>
+  </Row>
+
+  <Row>
+    <Key wnn:codes="65313" wnn:keyLabel="A" wnn:keyEdgeFlags="left" wnn:horizontalGap="1.2%p"/>
+    <Key wnn:codes="65331" wnn:keyLabel="S"/>
+    <Key wnn:codes="65316" wnn:keyLabel="D"/>
+    <Key wnn:codes="65318" wnn:keyLabel="F"/>
+    <Key wnn:codes="65319" wnn:keyLabel="G"/>
+    <Key wnn:codes="65320" wnn:keyLabel="H"/>
+    <Key wnn:codes="65322" wnn:keyLabel="J"/>
+    <Key wnn:codes="65323" wnn:keyLabel="K"/>
+    <Key wnn:codes="65324" wnn:keyLabel="L"/>
+    <Key wnn:codes="65295" wnn:keyLabel="@string/key_qwerty_full_slash"
+         wnn:keyEdgeFlags="right"/>
+  </Row>
+
+  <Row wnn:horizontalGap="0.82%p">
+    <Key wnn:codes="-1" wnn:keyIcon="@drawable/key_qwerty_shift"
+         wnn:iconPreview="@drawable/key_qwerty_shift_b" wnn:keyWidth="14%p" wnn:horizontalGap="1.2%p"
+         wnn:isModifier="true" wnn:isSticky="false" wnn:keyEdgeFlags="left" wnn:isSecondKey="true"/>
+    <Key wnn:codes="65338" wnn:keyLabel="Z"/>
+    <Key wnn:codes="65336" wnn:keyLabel="X"/>
+    <Key wnn:codes="65315" wnn:keyLabel="C"/>
+    <Key wnn:codes="65334" wnn:keyLabel="V"/>
+    <Key wnn:codes="65314" wnn:keyLabel="B"/>
+    <Key wnn:codes="65326" wnn:keyLabel="N"/>
+    <Key wnn:codes="65325" wnn:keyLabel="M"/>
+    <Key wnn:codes="-100" wnn:keyIcon="@drawable/key_del" wnn:iconPreview="@drawable/key_del_b"
+         wnn:keyWidth="13.9%p"
+         wnn:keyEdgeFlags="right" wnn:isRepeatable="true" wnn:isSecondKey="true"/>
+  </Row>
+
+  <Row wnn:rowEdgeFlags="bottom" wnn:horizontalGap="0.28%p">
+    <Key wnn:codes="-230" wnn:keyIcon="@drawable/key_mode_full_alpha" wnn:iconPreview="@drawable/key_mode_change_b"
+	 wnn:popupKeyboard="@xml/keyboard_switch_key_qwerty_jp" wnn:horizontalGap="1.2%p"
+         wnn:keyWidth="15%p" wnn:keyEdgeFlags="left" wnn:isSecondKey="true"/>
+    <Key wnn:codes="-106" wnn:keyIcon="@drawable/key_qwerty_pict_sym" wnn:iconPreview="@drawable/key_pict_sym_b"
+         wnn:keyWidth="15%p" wnn:isSecondKey="true"/>
+    <Key wnn:codes="65281" wnn:keyLabel="@string/key_qwerty_full_exclamation_mark"/>
+    <Key wnn:codes="12288"  wnn:keyIcon="@drawable/key_qwerty_space" wnn:iconPreview="@drawable/key_qwerty_space_b"
+         wnn:keyWidth="15.1%p" wnn:isRepeatable="true"/>
+    <Key wnn:codes="65311" wnn:keyLabel="@string/key_qwerty_full_question"/>
+    <Key wnn:codes="-218" wnn:keyIcon="@drawable/key_qwerty_left" wnn:iconPreview="@drawable/key_qwerty_left_b"
+         wnn:isRepeatable="true" wnn:isSecondKey="true"/>
+    <Key wnn:codes="-217" wnn:keyIcon="@drawable/key_qwerty_right" wnn:iconPreview="@drawable/key_qwerty_right_b"
+         wnn:isRepeatable="true" wnn:isSecondKey="true"/>
+    <Key wnn:codes="-101" wnn:keyIcon="@drawable/key_enter" wnn:iconPreview="@drawable/key_enter_b"
+         wnn:keyWidth="15%p" wnn:keyEdgeFlags="right" wnn:isSecondKey="true"/>
+  </Row>
+</Keyboard>

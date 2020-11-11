@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2008-2012  OMRON SOFTWARE Co., Ltd.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wnn="http://schemas.android.com/apk/res-auto"
+	  wnn:keyWidth="15%p"
+	  wnn:horizontalGap="0dip"
+	  wnn:verticalGap="0dip"
+	  wnn:keyHeight="50dip"
+	  >
+  <Row>
+    <Key wnn:codes="-301" wnn:keyLabel="@string/key_12key_switch_full_hiragana"
+	 wnn:keyEdgeFlags="left"/>
+    <Key wnn:codes="-302" wnn:keyLabel="@string/key_12key_switch_full_katakana"/>
+    <Key wnn:codes="-303" wnn:keyLabel="@string/key_12key_switch_full_alphabet"/>
+    <Key wnn:codes="-304" wnn:keyLabel="@string/key_12key_switch_full_number"
+	 wnn:keyEdgeFlags="right"/>
+  </Row>
+  <Row>
+    <Key wnn:codes="-221" wnn:keyIcon="@drawable/key_mode_panel_kbd" wnn:iconPreview="@drawable/key_mode_panel_kbd_b"
+	 wnn:keyEdgeFlags="left"/>
+    <Key wnn:codes="-306" wnn:keyLabel="@string/key_12key_switch_half_katakana"/>
+    <Key wnn:codes="-307" wnn:keyLabel="@string/key_12key_switch_half_alphabet"/>
+    <Key wnn:codes="-308" wnn:keyLabel="@string/key_12key_switch_half_number"
+	 wnn:keyEdgeFlags="right"/>
+  </Row>
+</Keyboard>

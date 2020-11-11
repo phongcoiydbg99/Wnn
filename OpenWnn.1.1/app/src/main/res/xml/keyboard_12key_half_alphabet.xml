@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2008-2012  OMRON SOFTWARE Co., Ltd.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wnn="http://schemas.android.com/apk/res-auto"
+    wnn:keyWidth="20%p"
+    wnn:horizontalGap="0dip"
+    wnn:verticalGap="0dip"
+    wnn:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key wnn:codes="-219" wnn:keyIcon="@drawable/key_12key_reverse" wnn:iconPreview="@drawable/key_12key_reverse_b"
+             wnn:keyEdgeFlags="left" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+        <Key wnn:codes="-201" wnn:keyIcon="@drawable/key_12key_alpha1" wnn:iconPreview="@drawable/key_12key_alpha1_b" wnn:horizontalGap="2%"/>
+        <Key wnn:codes="-202" wnn:keyIcon="@drawable/key_12key_alpha2" wnn:iconPreview="@drawable/key_12key_alpha2_b"/>
+        <Key wnn:codes="-203" wnn:keyIcon="@drawable/key_12key_alpha3" wnn:iconPreview="@drawable/key_12key_alpha3_b"/>
+        <Key wnn:codes="-214" wnn:keyIcon="@drawable/key_del" wnn:iconPreview="@drawable/key_del_b"
+             wnn:isRepeatable="true" wnn:keyEdgeFlags="right" wnn:horizontalGap="2%" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+    </Row>
+    
+    <Row>
+        <Key wnn:codes="-218" wnn:keyIcon="@drawable/key_12key_left" wnn:iconPreview="@drawable/key_12key_left_b" wnn:isRepeatable="true" wnn:keyEdgeFlags="left" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+        <Key wnn:codes="-204" wnn:keyIcon="@drawable/key_12key_alpha4" wnn:iconPreview="@drawable/key_12key_alpha4_b" wnn:horizontalGap="2%"/>
+        <Key wnn:codes="-205" wnn:keyIcon="@drawable/key_12key_alpha5" wnn:iconPreview="@drawable/key_12key_alpha5_b"/>
+        <Key wnn:codes="-206" wnn:keyIcon="@drawable/key_12key_alpha6" wnn:iconPreview="@drawable/key_12key_alpha6_b"/>
+        <Key wnn:codes="-217" wnn:keyIcon="@drawable/key_12key_right" wnn:iconPreview="@drawable/key_12key_right_b" wnn:isRepeatable="true" wnn:keyEdgeFlags="right" wnn:horizontalGap="2%" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+    </Row>
+    
+    <Row>
+        <Key wnn:codes="-222" wnn:keyIcon="@drawable/key_12key_pict_sym" wnn:iconPreview="@drawable/key_pict_sym_b"
+	     wnn:keyEdgeFlags="left" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+        <Key wnn:codes="-207" wnn:keyIcon="@drawable/key_12key_alpha7" wnn:iconPreview="@drawable/key_12key_alpha7_b" wnn:horizontalGap="2%"/>
+        <Key wnn:codes="-208" wnn:keyIcon="@drawable/key_12key_alpha8" wnn:iconPreview="@drawable/key_12key_alpha8_b"/>
+        <Key wnn:codes="-209" wnn:keyIcon="@drawable/key_12key_alpha9" wnn:iconPreview="@drawable/key_12key_alpha9_b"/>
+        <Key wnn:codes="-215" wnn:keyIcon="@drawable/key_12key_space" wnn:iconPreview="@drawable/key_12key_space_b" wnn:isRepeatable="true" wnn:keyEdgeFlags="right"  wnn:horizontalGap="2%" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+    </Row>
+    
+    <Row wnn:rowEdgeFlags="bottom">
+        <Key wnn:codes="-230" wnn:keyIcon="@drawable/key_mode_half_alpha" wnn:iconPreview="@drawable/key_mode_change_b"
+	     wnn:popupKeyboard="@xml/keyboard_switch_key_jp" wnn:keyEdgeFlags="left" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+        <Key wnn:codes="-213" wnn:keyIcon="@drawable/key_12key_caps" wnn:iconPreview="@drawable/key_12key_caps_b" wnn:horizontalGap="2%"/>
+        <Key wnn:codes="-210" wnn:keyIcon="@drawable/key_12key_alpha0" wnn:iconPreview="@drawable/key_12key_alpha0_b"/>
+        <Key wnn:codes="-211" wnn:keyIcon="@drawable/key_12key_period_comma" wnn:iconPreview="@drawable/key_12key_period_comma_b" />
+        <Key wnn:codes="-216" wnn:keyIcon="@drawable/key_enter" wnn:iconPreview="@drawable/key_enter_b"
+             wnn:keyEdgeFlags="right" wnn:horizontalGap="2%" wnn:keyWidth="18%" wnn:isSecondKey="true"/>
+    </Row>
+</Keyboard>

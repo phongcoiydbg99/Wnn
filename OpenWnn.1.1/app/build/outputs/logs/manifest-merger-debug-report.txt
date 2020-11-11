@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:17:1-51:12
+INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:17:1-51:12
+INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:17:1-51:12
+	package
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:18:4-37
+		INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:17:11-69
+original-package
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:20:5-64
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:20:23-61
+uses-permission#android.permission.VIBRATE
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:22:5-124
+	xmlns:android
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:22:22-80
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:22:81-122
+application
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:23:5-49:19
+	android:label
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:23:18-41
+service#jp.co.omronsoft.openwnn.OpenWnnJAJP
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:25:9-32:19
+	android:label
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:25:45-73
+	android:id
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:27:4-41
+	android:permission
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:26:4-61
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:25:18-44
+intent-filter#action:name:android.view.InputMethod
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:28:13-30:29
+action#android.view.InputMethod
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:29:17-67
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:29:25-64
+meta-data#android.view.im
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:31:13-91
+	android:resource
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:31:55-88
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:31:24-54
+activity#jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:34:9-39:20
+	android:label
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:35:17-67
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:34:19-57
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:36:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:37:25-66
+activity#jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsListJAJP
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:41:2-86
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:41:12-83
+activity#jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsEditJAJP
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:43:2-137
+	android:label
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:43:84-134
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:43:12-83
+activity#jp.co.omronsoft.openwnn.EN.UserDictionaryToolsListEN
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:45:2-82
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:45:12-79
+activity#jp.co.omronsoft.openwnn.EN.UserDictionaryToolsEditEN
+ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:47:2-133
+	android:label
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:47:80-130
+	android:name
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml:47:12-79
+uses-sdk
+INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+		ADDED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bacnt/Github/OpenWnn.1.1/app/src/main/AndroidManifest.xml

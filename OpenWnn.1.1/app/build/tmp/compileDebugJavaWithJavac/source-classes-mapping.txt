@@ -1,0 +1,178 @@
+jp/co/omronsoft/openwnn/EN/OpenWnnEngineEN.java
+ jp.co.omronsoft.openwnn.EN.OpenWnnEngineEN
+jp/co/omronsoft/openwnn/CandidateTextView.java
+ jp.co.omronsoft.openwnn.CandidateTextView
+jp/co/omronsoft/openwnn/BuildConfig.java
+ jp.co.omronsoft.openwnn.BuildConfig
+jp/co/omronsoft/openwnn/OpenWnn.java
+ jp.co.omronsoft.openwnn.OpenWnn
+jp/co/omronsoft/openwnn/DefaultSoftKeyboard.java
+ jp.co.omronsoft.openwnn.DefaultSoftKeyboard
+ jp.co.omronsoft.openwnn.DefaultSoftKeyboard$1
+jp/co/omronsoft/openwnn/OpenWnnDictionaryImplJni.java
+ jp.co.omronsoft.openwnn.OpenWnnDictionaryImplJni
+jp/co/omronsoft/openwnn/Keyboard.java
+ jp.co.omronsoft.openwnn.Keyboard
+ jp.co.omronsoft.openwnn.Keyboard$Key
+ jp.co.omronsoft.openwnn.Keyboard$Row
+jp/co/omronsoft/openwnn/JAJP/RomkanHalfKatakana.java
+ jp.co.omronsoft.openwnn.JAJP.RomkanHalfKatakana
+ jp.co.omronsoft.openwnn.JAJP.RomkanHalfKatakana$1
+jp/co/omronsoft/openwnn/JAJP/OpenWnnClauseConverterJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.OpenWnnClauseConverterJAJP
+jp/co/omronsoft/openwnn/UserDictionaryToolsListFocus.java
+ jp.co.omronsoft.openwnn.UserDictionaryToolsListFocus
+jp/co/omronsoft/openwnn/KeyboardView.java
+ jp.co.omronsoft.openwnn.KeyboardView
+ jp.co.omronsoft.openwnn.KeyboardView$1
+ jp.co.omronsoft.openwnn.KeyboardView$2
+ jp.co.omronsoft.openwnn.KeyboardView$3
+ jp.co.omronsoft.openwnn.KeyboardView$OnKeyboardActionListener
+ jp.co.omronsoft.openwnn.KeyboardView$SwipeTracker
+jp/co/omronsoft/openwnn/JAJP/ClearLearnDictionaryDialogPreferenceJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.ClearLearnDictionaryDialogPreferenceJAJP
+jp/co/omronsoft/openwnn/SymbolList.java
+ jp.co.omronsoft.openwnn.SymbolList
+jp/co/omronsoft/openwnn/KeyAction.java
+ jp.co.omronsoft.openwnn.KeyAction
+jp/co/omronsoft/openwnn/CandidatesViewManager.java
+ jp.co.omronsoft.openwnn.CandidatesViewManager
+jp/co/omronsoft/openwnn/OpenWnnJAJP.java
+ jp.co.omronsoft.openwnn.OpenWnnJAJP
+ jp.co.omronsoft.openwnn.OpenWnnJAJP$1
+ jp.co.omronsoft.openwnn.OpenWnnJAJP$2
+ jp.co.omronsoft.openwnn.OpenWnnJAJP$3
+ jp.co.omronsoft.openwnn.OpenWnnJAJP$EngineState
+jp/co/omronsoft/openwnn/JAJP/Romkan.java
+ jp.co.omronsoft.openwnn.JAJP.Romkan
+ jp.co.omronsoft.openwnn.JAJP.Romkan$1
+jp/co/omronsoft/openwnn/UserDictionaryToolsEdit.java
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit$1
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit$2
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit$3
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit$4
+ jp.co.omronsoft.openwnn.UserDictionaryToolsEdit$5
+jp/co/omronsoft/openwnn/EN/ClearUserDictionaryDialogPreferenceEN.java
+ jp.co.omronsoft.openwnn.EN.ClearUserDictionaryDialogPreferenceEN
+jp/co/omronsoft/openwnn/WnnEngine.java
+ jp.co.omronsoft.openwnn.WnnEngine
+jp/co/omronsoft/openwnn/StrSegmentClause.java
+ jp.co.omronsoft.openwnn.StrSegmentClause
+jp/co/omronsoft/openwnn/OpenWnnDictionaryImpl.java
+ jp.co.omronsoft.openwnn.OpenWnnDictionaryImpl
+jp/co/omronsoft/openwnn/OpenWnnEN.java
+ jp.co.omronsoft.openwnn.OpenWnnEN
+ jp.co.omronsoft.openwnn.OpenWnnEN$1
+ jp.co.omronsoft.openwnn.OpenWnnEN$2
+jp/co/omronsoft/openwnn/JAJP/KeyboardListPreferenceJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.KeyboardListPreferenceJAJP
+jp/co/omronsoft/openwnn/OpenWnnEvent.java
+ jp.co.omronsoft.openwnn.OpenWnnEvent
+ jp.co.omronsoft.openwnn.OpenWnnEvent$Mode
+jp/co/omronsoft/openwnn/JAJP/UserDictionaryToolsListJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsListJAJP
+ jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsListJAJP$ListComparatorJAJP
+jp/co/omronsoft/openwnn/EN/TutorialEN.java
+ jp.co.omronsoft.openwnn.EN.TutorialEN
+ jp.co.omronsoft.openwnn.EN.TutorialEN$1
+ jp.co.omronsoft.openwnn.EN.TutorialEN$Bubble
+ jp.co.omronsoft.openwnn.EN.TutorialEN$Bubble$1
+jp/co/omronsoft/openwnn/EN/DefaultSoftKeyboardEN.java
+ jp.co.omronsoft.openwnn.EN.DefaultSoftKeyboardEN
+jp/co/omronsoft/openwnn/OpenWnnSQLiteOpenHelper.java
+ jp.co.omronsoft.openwnn.OpenWnnSQLiteOpenHelper
+jp/co/omronsoft/openwnn/TextCandidates1LineViewManager.java
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$1
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$10
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$2
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$3
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$4
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$5
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$6
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$7
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$8
+ jp.co.omronsoft.openwnn.TextCandidates1LineViewManager$9
+jp/co/omronsoft/openwnn/EN/UserDictionaryToolsEditEN.java
+ jp.co.omronsoft.openwnn.EN.UserDictionaryToolsEditEN
+jp/co/omronsoft/openwnn/JAJP/DefaultSoftKeyboardJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$1
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$2
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$3
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$4
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$5
+ jp.co.omronsoft.openwnn.JAJP.DefaultSoftKeyboardJAJP$6
+jp/co/omronsoft/openwnn/JAJP/ClearUserDictionaryDialogPreferenceJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.ClearUserDictionaryDialogPreferenceJAJP
+jp/co/omronsoft/openwnn/WnnPOS.java
+ jp.co.omronsoft.openwnn.WnnPOS
+jp/co/omronsoft/openwnn/CandidateViewButton.java
+ jp.co.omronsoft.openwnn.CandidateViewButton
+jp/co/omronsoft/openwnn/EN/UserDictionaryToolsListEN.java
+ jp.co.omronsoft.openwnn.EN.UserDictionaryToolsListEN
+ jp.co.omronsoft.openwnn.EN.UserDictionaryToolsListEN$ListComparatorEN
+jp/co/omronsoft/openwnn/UserDictionaryToolsList.java
+ jp.co.omronsoft.openwnn.UserDictionaryToolsList
+ jp.co.omronsoft.openwnn.UserDictionaryToolsList$1
+ jp.co.omronsoft.openwnn.UserDictionaryToolsList$2
+ jp.co.omronsoft.openwnn.UserDictionaryToolsList$3
+ jp.co.omronsoft.openwnn.UserDictionaryToolsList$4
+jp/co/omronsoft/openwnn/JAJP/TutorialJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.TutorialJAJP
+ jp.co.omronsoft.openwnn.JAJP.TutorialJAJP$1
+ jp.co.omronsoft.openwnn.JAJP.TutorialJAJP$Bubble
+ jp.co.omronsoft.openwnn.JAJP.TutorialJAJP$Bubble$1
+jp/co/omronsoft/openwnn/TextCandidatesViewManager.java
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$1
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$10
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$2
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$3
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$4
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$5
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$6
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$7
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$8
+ jp.co.omronsoft.openwnn.TextCandidatesViewManager$9
+jp/co/omronsoft/openwnn/WnnClause.java
+ jp.co.omronsoft.openwnn.WnnClause
+jp/co/omronsoft/openwnn/JAJP/OpenWnnEngineJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.OpenWnnEngineJAJP
+ jp.co.omronsoft.openwnn.JAJP.OpenWnnEngineJAJP$1
+ jp.co.omronsoft.openwnn.JAJP.OpenWnnEngineJAJP$WnnWordComparator
+jp/co/omronsoft/openwnn/WnnSentence.java
+ jp.co.omronsoft.openwnn.WnnSentence
+jp/co/omronsoft/openwnn/JAJP/UserDictionaryToolsEditJAJP.java
+ jp.co.omronsoft.openwnn.JAJP.UserDictionaryToolsEditJAJP
+jp/co/omronsoft/openwnn/WnnDictionary.java
+ jp.co.omronsoft.openwnn.WnnDictionary
+jp/co/omronsoft/openwnn/CandidateFilter.java
+ jp.co.omronsoft.openwnn.CandidateFilter
+jp/co/omronsoft/openwnn/BaseInputView.java
+ jp.co.omronsoft.openwnn.BaseInputView
+jp/co/omronsoft/openwnn/WnnWord.java
+ jp.co.omronsoft.openwnn.WnnWord
+jp/co/omronsoft/openwnn/LetterConverter.java
+ jp.co.omronsoft.openwnn.LetterConverter
+jp/co/omronsoft/openwnn/ComposingText.java
+ jp.co.omronsoft.openwnn.ComposingText
+jp/co/omronsoft/openwnn/JAJP/KanaConverter.java
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$1
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$2
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$3
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$4
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$5
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$6
+ jp.co.omronsoft.openwnn.JAJP.KanaConverter$7
+jp/co/omronsoft/openwnn/InputViewManager.java
+ jp.co.omronsoft.openwnn.InputViewManager
+jp/co/omronsoft/openwnn/JAJP/RomkanFullKatakana.java
+ jp.co.omronsoft.openwnn.JAJP.RomkanFullKatakana
+ jp.co.omronsoft.openwnn.JAJP.RomkanFullKatakana$1
+jp/co/omronsoft/openwnn/OpenWnnControlPanelJAJP.java
+ jp.co.omronsoft.openwnn.OpenWnnControlPanelJAJP
+jp/co/omronsoft/openwnn/StrSegment.java
+ jp.co.omronsoft.openwnn.StrSegment
